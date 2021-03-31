@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mtho site ~ Home</title>
+    <link rel="shortcut icon" type="image/ico" href="media/img/mtho image.jpg">
+    <meta name="keywords" content="create website, developer, html css and javascript developer, website creator, cheap developer,
+    html site, online website, coders code site, mtho site, mthobisi developer, coders code website, mtho site">
+    <meta name="discription" content="i am mtho a developer and i design and create websites">
+</head>
+
+<body>
+    <div class="pmenuholder">
+        <h1 class="pmh1">Mtho site</h1> <br>
+        <button class="h2hide">Menu</button>
+        <div class="pmendiv">
+            <li class="plim"><a class="pam" href="html/hire.html">Hire me</a></li>
+            <li class="plim"><a class="pam" href="html/my work.html">My work</a></li>
+            <li class="plim"><a class="pam" href="index.html">Home</a></li>
+        </div>
+    </div>
+    <!-----media phone-->
+    <div class="menuholder">
+        <h1 class="mh1">Mtho site</h1> <br>
+        <div class="mendiv">
+            <li class="lim" title="hire mtho"><a class="am" href="html/hire.html">Hire me</a></li>
+            <li class="lim" title="mtho's work"><a class="am" href="html/my work.html">My work</a></li>
+            <li class="lim" title="mtho's home"><a class="am" href="index.html">Home</a></li>
+        </div>
+    </div>
+    <!---contente---->
+    <div class="abtme">
+        <div class="holderinfo">
+            <div class="imgdiv">
+                <img class="imga" title="Mtho" alt="Mtho" src="media/img/mtho image.jpg" alt="image">
+            </div>
+            <div class="content">
+                <h3 class="h3">About Mthobisi</h3> <br>
+                <p class="pt">Hello! <br> My name is Mthobisi. <br> I am a SELF-TAUGHT DEVELOPER. <br> I love creating responsive websites from scratch no wordpress or web hosters used, just pure programming. <br> <br> Check out <a href="">My Responsive Web Design Certificate</a>                    at Freecodecamp.org
+                </p>
+            </div>
+        </div>
+    </div>
+    <!---contente---->
+    <!--------testimonies------>
+    <!--------testimonies------>
+    <!--------comment section------>
+    <div class="comment">
+        <div class="comment_div">
+            <h2 class="h2">Comment Section</h2> <br>
+            <form>
+                <label id="l_name" for="name">Name</label>
+                <input placeholder="Jack Dyson" type="text" id="name"> <br> <br>
+                <label for="text" id="l_info">Comment</label> <br>
+                <textarea placeholder="Express your thoughts or view." id="text" cols="30" rows="10"></textarea> <br>
+                <button id="btn_c">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!--------comment section------>
+
+    <div class="footer">
+        <div class="socialmedia">
+            <li class="lib">
+                <h5 class="btn">
+                    <a href="html/Mtho site ~ log in.html">lOG IN</a> </h5>
+            </li>
+        </div>
+    </div>
+
+    <script>
+        var num = 0;
+        var div = document.querySelector(".pmendiv");
+        var menu = document.querySelector(".h2hide")
+        menu.addEventListener("click", (e) => {
+            if (num === 0) {
+                div.style.display = "block";
+                num = num + 1;
+            } else {
+                div.style.display = "none";
+                num = num - 1;
+            }
+        })
+    </script>
+</body>
+
+</html>
+
+</html>

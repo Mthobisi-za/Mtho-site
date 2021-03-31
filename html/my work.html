@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/mywork.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mtho site ~ My work</title>
+    <link rel="shortcut icon" type="image/ico" href="media/img/mtho image.jpg">
+    <meta name="keywords" content="create website, developer, html css and javascript developer, website creator, cheap developer,
+    html site, online website, coders code site, mtho site, mthobisi developer, coders code website, mtho site">
+    <meta name="discription" content="i am mtho a developer and i design and create websites">
+
+</head>
+<body>
+    <div class="pmenuholder">
+        <h1 class="pmh1">Mtho site</h1> <br>
+        <button class="h2hide">Menu</button>
+        <div class="pmendiv">
+            <li class="plim"><a class="pam" href="html/hire.html">Hire me</a></li>
+            <li class="plim"><a class="pam" href="html/my work.html">My work</a></li>
+            <li class="plim"><a class="pam" href="index.html">Home</a></li>
+        </div>
+    </div>
+    <!-----media phone-->
+    <div class="menuholder">
+        <h1 class="mh1">Mtho site</h1> <br>
+        <div class="mendiv">
+            <li class="lim" title="hire mtho"><a class="am" href="html/hire.html">Hire me</a></li>
+            <li class="lim" title="mtho's work"><a class="am" href="html/my work.html">My work</a></li>
+            <li class="lim" title="mtho's home"><a class="am" href="index.html">Home</a></li>
+        </div>
+    </div>
+<!-------img
+<div class="imghk">
+    <img src="https://i.ytimg.com/vi/wpmHZspl4EM/maxresdefault.jpg" class="lk" alt="">
+</div>-->
+<!-------img-->
+<div class="work">
+    <div class="imgh"> 
+        <img src="media/img/mtho.png" alt="My work" class="imgw">
+    </div>
+    <div class="linked">
+        <p>
+            Check out! <a href="https://mthobisi-za.github.io/webpage/"> Mthobisi web page no css framework </a> 
+        </p>
+    </div>
+</div>
+<div class="work">
+    <div class="imgh"> 
+        <img src="media/img/Mthobisi webpage.png" alt="My work" class="imgw">
+    </div>
+    <div class="linked">
+        <p>
+            Check out! <a href="https://mthobisi-za.github.io/webpage-css-grid/"> Mthobisi web page with css framework </a> 
+        </p>
+    </div>
+</div>
+
+
+    <script>
+        var num = 0;
+        var div = document.querySelector(".pmendiv");
+        var menu = document.querySelector(".h2hide")
+        menu.addEventListener("click", (e) => {
+            if (num === 0) {
+                div.style.display = "block";
+                num = num + 1;
+            } else {
+                div.style.display = "none";
+                num = num - 1;
+            }
+        })
+    </script>
+</body>
+</html>

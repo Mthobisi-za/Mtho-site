@@ -1,0 +1,17 @@
+.work{
+    width: 90%;
+    margin-top: 5%;
+    display: flex;
+    margin-left: 5%;
+    
+}
+.imgh{
+    width: 50%;
+    height: auto;
+}
+.imgw{
+    width: 60%;
+}
+.linked{
+    width: 50%;
+}
